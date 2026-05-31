@@ -49,7 +49,7 @@ export function Features() {
             Unlock Rewards
           </span>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-foreground mt-3 max-w-2xl mx-auto text-balance">
-            What You Can Do With Your $750 Sam&apos;s Club Gift Card
+            What You Can Do With Your $500 Sam&apos;s Club Gift Card
           </h2>
         </div>
 

@@ -26,7 +26,7 @@ const steps = [
   },
   {
     icon: Trophy,
-    title: "Receive your $750 Sam's Club gift card",
+    title: "Receive your $500 Sam's Club gift card",
     description: "Delivered straight to your inbox",
   },
 ];
