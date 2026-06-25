@@ -11,7 +11,7 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "Sam's Club Method",
-  description: "Discover how people are unlocking up to $500 in Sam's Club rewards. Complete simple steps and claim your gift card today.",
+  description: "Discover how people are unlocking up to $750 in Sam's Club rewards. Complete simple steps and claim your gift card today.",
   generator: "v0.app",
   icons: {
     icon: [
@@ -26,13 +26,13 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     title: "Sam's Club Method",
-    description: "Unlock up to $500 in Sam's Club rewards with a simple process.",
+    description: "Unlock up to $750 in Sam's Club rewards with a simple process.",
     siteName: "Sam's Club Method",
   },
   twitter: {
     card: "summary_large_image",
     title: "Sam's Club Method",
-    description: "Unlock up to $500 in Sam's Club rewards with a simple process.",
+    description: "Unlock up to $750 in Sam's Club rewards with a simple process.",
   },
   other: {
     "apple-mobile-web-app-title": "Sam's Club Method",

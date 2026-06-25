@@ -9,7 +9,7 @@ export function Hero() {
   return (
     <section
       ref={sectionRef}
-      className="relative flex items-center justify-center overflow-hidden pt-4 pb-4 sm:pt-6 sm:pb-6 px-4 min-h-[70vh] sm:min-h-[80vh]"
+      className="relative flex items-start justify-center overflow-hidden pt-6 pb-10 sm:pt-8 sm:pb-14 px-4"
     >
       {/* Subtle background shapes with gentle floating animation */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -59,7 +59,7 @@ export function Hero() {
           }`}
         >
           <a
-            href="https://trksy.org/aff_c?offer_id=4258&aff_id=26188"
+            href="https://trksy.org/aff_c?offer_id=4592&aff_id=26188"
             target="_blank"
             rel="noopener noreferrer"
             className="touch-button group inline-flex items-center gap-3 bg-[#1166A5] text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-[#0d5289] transition-all duration-300 hover:shadow-xl hover:shadow-[#1166A5]/20 hover:-translate-y-0.5"
