@@ -9,7 +9,7 @@ export function Hero() {
   return (
     <section
       ref={sectionRef}
-      className="relative flex items-start justify-center overflow-hidden pt-6 pb-10 sm:pt-8 sm:pb-14 px-4"
+      className="relative flex items-center justify-center overflow-hidden pt-8 pb-6 sm:pt-12 sm:pb-8 px-4"
     >
       {/* Subtle background shapes with gentle floating animation */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -19,19 +19,6 @@ export function Hero() {
       </div>
 
       <div className="relative z-10 max-w-4xl mx-auto text-center">
-        {/* Sam's Club Logo */}
-        <div
-          className={`flex justify-center mb-10 sm:mb-12 transition-all duration-700 ease-out ${
-            isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
-          }`}
-        >
-          <img
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/sams-club-logo-1-ZIl9rUFHIVocbMz1L5WsBJHT7jxKHu.png"
-            alt="Sam's Club"
-            className="h-28 sm:h-32 md:h-36 lg:h-40 w-auto"
-          />
-        </div>
-
         {/* Headline */}
         <h1
           className={`text-2xl sm:text-4xl md:text-[2.75rem] lg:text-5xl font-semibold text-foreground leading-[1.2] sm:leading-[1.15] mb-5 sm:mb-6 max-w-[320px] sm:max-w-2xl md:max-w-3xl mx-auto transition-all duration-700 ease-out delay-100 ${
@@ -39,8 +26,8 @@ export function Hero() {
           }`}
         >
           The{" "}
-          <span className="text-[#1166A5] font-semibold">Sam&apos;s Club Method</span>{" "}
-          That&apos;s Changing Everything
+          <span className="text-[#1166A5] font-semibold">Sam&apos;s Club Discounts</span>{" "}
+          They Don&apos;t Advertise
         </h1>
 
         {/* Subheadline */}
@@ -49,7 +36,7 @@ export function Hero() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
           }`}
         >
-          Discover how people are saving big on bulk essentials, electronics, home items, and everyday needs.
+          Discover how members are unlocking hidden discount codes on bulk essentials, electronics, home items, and everyday needs
         </p>
 
         {/* CTA Button */}
@@ -59,10 +46,10 @@ export function Hero() {
           }`}
         >
           <a
-            href="https://trksy.org/aff_c?offer_id=4592&aff_id=26188"
+            href="https://trksy.org/aff_c?offer_id=4258&aff_id=26188"
             target="_blank"
             rel="noopener noreferrer"
-            className="touch-button group inline-flex items-center gap-3 bg-[#1166A5] text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-[#0d5289] transition-all duration-300 hover:shadow-xl hover:shadow-[#1166A5]/20 hover:-translate-y-0.5"
+            className="touch-button group inline-flex items-center gap-3 bg-[#1166A5] text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-[#0e5488] transition-all duration-300 hover:shadow-xl hover:shadow-[#1166A5]/20 hover:-translate-y-0.5"
           >
             APPLY NOW
             <ArrowRight className="w-5 h-5 transition-transform duration-300 group-hover:translate-x-1" />
@@ -94,8 +81,8 @@ export function Hero() {
             />
           </div>
           <p className="text-sm text-muted-foreground/70 font-medium">
-            <span className="sm:hidden">Join 12,000+ members who&apos;ve<br />already claimed their rewards.</span>
-            <span className="hidden sm:inline">Join 12,000+ members who&apos;ve already claimed their rewards.</span>
+            <span className="sm:hidden">Join 12,000+ members who&apos;ve<br />already claimed their discounts.</span>
+            <span className="hidden sm:inline">Join 12,000+ members who&apos;ve already claimed their discounts.</span>
           </p>
         </div>
       </div>

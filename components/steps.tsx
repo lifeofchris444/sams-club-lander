@@ -16,7 +16,7 @@ const steps = [
   },
   {
     icon: ClipboardCheck,
-    title: "Complete the Sam's Club survey",
+    title: "Complete the survey",
     description: "Share your shopping preferences",
   },
   {
@@ -26,7 +26,7 @@ const steps = [
   },
   {
     icon: Trophy,
-    title: "Receive your $750 Sam's Club gift card",
+    title: "Receive your discount code",
     description: "Delivered straight to your inbox",
   },
 ];
@@ -35,7 +35,7 @@ export function Steps() {
   const { ref: sectionRef, isVisible: sectionVisible } = useScrollAnimation({ threshold: 0.05 });
 
   return (
-    <section id="how-it-works" ref={sectionRef} className="pt-4 pb-12 sm:pt-8 sm:pb-16 px-4 relative">
+    <section id="how-it-works" ref={sectionRef} className="pt-2 pb-12 sm:pt-4 sm:pb-16 px-4 relative">
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-muted/30 to-transparent pointer-events-none" />
       
       <div className="max-w-5xl mx-auto relative z-10">
@@ -48,7 +48,7 @@ export function Steps() {
             How It Works
           </span>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-foreground mt-3 text-balance">
-            Five Simple Steps to Rewards
+            Five Simple Steps to Claiming Your Discounts
           </h2>
         </div>
 

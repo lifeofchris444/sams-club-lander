@@ -10,8 +10,8 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: "Sam's Club Method",
-  description: "Discover how people are unlocking up to $750 in Sam's Club rewards. Complete simple steps and claim your gift card today.",
+  title: "Sam's Club Discounts They Don't Advertise",
+  description: "Discover how members are unlocking hidden Sam's Club discount codes on bulk essentials, electronics, home items, and everyday needs. Complete simple steps and claim your discounts today.",
   generator: "v0.app",
   icons: {
     icon: [
@@ -25,17 +25,26 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: "website",
-    title: "Sam's Club Method",
-    description: "Unlock up to $750 in Sam's Club rewards with a simple process.",
-    siteName: "Sam's Club Method",
+    title: "Sam's Club Discounts They Don't Advertise",
+    description: "Unlock hidden Sam's Club discount codes with a simple process.",
+    siteName: "Sam's Club Discounts They Don't Advertise",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Sam's Club Discounts They Don't Advertise - Hidden Discount Codes",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sam's Club Method",
-    description: "Unlock up to $750 in Sam's Club rewards with a simple process.",
+    title: "Sam's Club Discounts They Don't Advertise",
+    description: "Unlock hidden Sam's Club discount codes with a simple process.",
+    images: ["/og-image.png"],
   },
   other: {
-    "apple-mobile-web-app-title": "Sam's Club Method",
+    "apple-mobile-web-app-title": "Sam's Club Discounts They Don't Advertise",
   },
 }
 
